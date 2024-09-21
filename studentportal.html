@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Student Portal</title>
+	<link href="style.css" rel="stylesheet">
+</head>
+<body>
+	<!-- WEBSITE HEADER  -->
+	<div class="header">
+        <div class="header_display">
+            <h1 class="header_title">High Gate College</h1>
+            <ul>
+            	<li><a href="index.html">Home</a></li>
+                <li><a href="studentportal.html">Student Portal</a></li>
+                <li><a href="staffportal.html">Staff Portal</a></li>
+                <li><a href="contact.html">Contact us</a></li>
+            </ul>
+        </div>
+    </div>  
+
+
+	<!-- STUDENT PORTAL FORM -->
+
+	<div class = "main_body">
+
+		<h2 class="body_title">Student Portal</h2>
+
+		<div class="portal_login">
+		 	<h3>Student Portal Login</h3>
+		 	 <!-- Form for login -->
+
+		 	 <form>
+		 	 	<label for="username">Username</label>
+		 	 	<input type="text" id="username" name="username" required required pattern="[a-zA-Z0-0]+">
+
+		 	 	<br> <br>
+
+		 	    <label for="password">Password</label>
+		 	    <input type="password" id="password" name="password" required>
+
+		        <br><br>
+
+		        <label for="student-id">Student ID</label>
+		        <input type="text" id="student-id" name="student-id" required pattern="[0-9] {15,16}">
+
+		 	    <br><br>
+		 	    <input type="submit" value="Submit">
+
+		 	 </form>
+		</div>
+
+
+ 	  <footer class="website_footer student">
+         <p>High Gate College</p>
+         <p>Privacy Policy</p>
+         <p>Cookies Policy</p>
+      </footer>
+    </div>
+
+</body>
+</html>

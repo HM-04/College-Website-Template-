@@ -1,0 +1,207 @@
+* {
+	padding: 0px;
+	margin: 0px;
+}
+
+html {
+	min-height: 100%;
+}
+.header {
+	background: url("./Images/school_header.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding-bottom: 100px;
+	color: white;
+}
+
+.header_display{
+	display: flex;
+}
+
+ul {
+	list-style: none;
+	display: flex;
+	gap: 20px;
+	margin-right: 20px;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+}
+
+.header_title {
+	margin-right: auto;
+	margin-left: 20px;
+	text-shadow: 2px 2px orange;
+}
+
+.header_body {
+	display: flex;
+	margin-top: 40px;
+	justify-content: center;
+}
+
+.header_text {
+	display: flex;
+	flex-direction: column;
+	width: 300px;
+	margin-top: 20px;
+	margin-left: 20px;
+	justify-content: center;
+}
+
+.body_title {
+	text-align: center;
+	padding-top: 20px;
+}
+
+.navigation {
+	display: flex;
+	margin-left: 60px;
+	margin-top: 40px;
+	gap: 20px;
+}
+
+.navigation_image {
+	width: 250px;
+	height: 300px;
+}
+
+.navigation_link {
+	display: flex;
+	flex-direction: column;
+	width: 250px;
+	padding: 10px;
+	border: 2px solid orange;
+	text-align: center;
+}
+
+.navigation_link a {
+	text-decoration: none;
+	color: black;
+}
+
+.courses_image {
+	width: 300px;
+	height: 350px;
+}
+
+.courses {
+	display: flex;
+	flex-wrap: wrap;
+	width: 1050px;
+	justify-content: space-around;
+	margin-left: 100px;
+	margin-top: 40px;
+	gap: 20px;
+}
+
+.courses_links {
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	border: 2px solid orange;
+	padding: 10px;
+}
+
+.main_body {
+	background-color: rgb(137, 207, 240);
+}
+
+
+.more_courses {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-top: 10px;
+}
+
+table, td, th {
+	border: 1px solid white;
+	background-color: rgb(137, 207, 240);
+	padding: 5px;
+}
+
+
+form {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-left: 100px;
+	margin-right: 100px;
+	margin-top: 20px;
+	gap: 10px;
+	border: 2px solid orange;
+	border-radius: 25px;
+	padding: 10px;
+}
+
+.club_form {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-left: 100px;
+	margin-right: 100px;
+	margin-top: 20px;
+	gap: 10px;
+	border: 2px solid orange;
+	border-radius: 25px;
+	padding: 10px;
+}
+
+
+.website_footer {
+	display: flex;
+	justify-content: space-evenly;
+	background-color: rgb(137, 207, 240);
+	
+}
+
+.holidays_content, .contact_content {
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+	margin-top: 20px;
+	margin-left: 100px;
+	margin-right: 100px;
+	border: 2px solid orange;
+	border-radius: 25px;
+	text-align: center;
+	padding: 10px;
+}
+
+.term_holidays, .about_info, .clubs_content{
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+}
+
+.portal_login {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+	margin-left: 40px;
+}
+
+.about_content {
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+	padding-top: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.website_footer.staff {
+	margin-top: 232px;
+}
+
+.website_footer.student {
+	margin-top: 195px;
+}
+
+.website_footer.contact {
+	margin-top: 109px;
+}
+
