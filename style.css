@@ -56,13 +56,20 @@ a {
 	padding-top: 20px;
 }
 
+/* .navigation {
+	display: flex;
+	margin-left: 150px;
+	margin-top: 40px;
+	justify-content: space-evenly;
+	margin-right: 150px;
+} */
+
 .navigation {
 	display: flex;
-	margin-left: 60px;
 	margin-top: 40px;
-	gap: 20px;
+	justify-content: center;
+	gap: 30px
 }
-
 .navigation_image {
 	width: 250px;
 	height: 300px;
@@ -87,14 +94,29 @@ a {
 	height: 350px;
 }
 
-.courses {
+/* .courses {
 	display: flex;
 	flex-wrap: wrap;
-	width: 1050px;
+	width: 66%;
 	justify-content: space-around;
-	margin-left: 100px;
+	margin-left: 25%;
 	margin-top: 40px;
 	gap: 20px;
+} */
+
+.courses {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	margin-top: 40px;
+	gap: 20px;
+}
+
+.first_courses, .second_courses {
+	display: flex;
+	justify-content: center;
+	gap: 30px
 }
 
 .courses_links {
@@ -194,14 +216,27 @@ form {
 }
 
 .website_footer.staff {
-	margin-top: 232px;
+	margin-top: 295px;
 }
 
 .website_footer.student {
-	margin-top: 195px;
+	margin-top: 196px;
 }
 
 .website_footer.contact {
-	margin-top: 109px;
+	margin-top: 348px;
 }
+
+.website_footer.main{
+	padding-top: 53px;
+}
+
+.website_footer.about{
+	padding-top: 203px;
+}
+
+.website_footer.holidays{
+	padding-top: 170px;
+}
+
 
